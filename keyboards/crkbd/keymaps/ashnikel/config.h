@@ -18,6 +18,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
 #define VIAL_KEYBOARD_UID {0x3B, 0x6B, 0xA0, 0x29, 0x80, 0x56, 0xED, 0xD1}
 #define VIAL_UNLOCK_COMBO_ROWS {0, 0}
 #define VIAL_UNLOCK_COMBO_COLS {0, 1}
@@ -75,7 +77,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
 // #    define ENABLE_RGB_MATRIX_BREATHING
 #    define ENABLE_RGB_MATRIX_BAND_SAT
-#    define ENABLE_RGB_MATRIX_BAND_VAL
+// #    define ENABLE_RGB_MATRIX_BAND_VAL
 // #    define ENABLE_RGB_MATRIX_BAND_PINWHEEL_SAT
 // #    define ENABLE_RGB_MATRIX_BAND_PINWHEEL_VAL
 // #    define ENABLE_RGB_MATRIX_BAND_SPIRAL_SAT
@@ -91,7 +93,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #    define ENABLE_RGB_MATRIX_DUAL_BEACON
 // #    define ENABLE_RGB_MATRIX_RAINBOW_BEACON
 // #    define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
-#    define ENABLE_RGB_MATRIX_RAINDROPS
+// #    define ENABLE_RGB_MATRIX_RAINDROPS
 #    define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
 // #    define ENABLE_RGB_MATRIX_HUE_BREATHING
 // #    define ENABLE_RGB_MATRIX_HUE_PENDULUM

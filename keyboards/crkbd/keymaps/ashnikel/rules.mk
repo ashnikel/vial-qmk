@@ -12,3 +12,4 @@ EXTRAKEY_ENABLE     = yes
 COMBO_ENABLE        = no
 
 QMK_SETTINGS        = no
+CAPS_WORD_ENABLE	= yes
